@@ -1,0 +1,94 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 50px 20px;
+}
+.container {
+    background-color: #fff;
+    width: 750px;
+    border-radius: 15px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+.header {
+    background: linear-gradient(135deg, #011f25,#011f25 );
+    color: white;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.profile-img {
+    width: 130px;
+    height: 150px;
+    border-radius: 10px;
+    border: 3px solid #fff;
+}
+.header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.header p {
+    font-size: 20px;
+    font-style: italic;
+}
+.section-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #0d3138;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-left: 8px solid #0d3138;
+    margin-bottom: 25px;
+}
+.section {
+    padding: 40px;
+    border-bottom: 2px solid #dcdde1;
+}
+.section:last-child {
+    border-bottom: none;
+}
+.info p, .skills p, .education p, .seminar p, .achievements p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.info span, .skills span, .education span, .achievements span {
+    font-weight: bold;
+    color: #0d3138;
+}
+a {
+    color:#0d3138 ;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 2px solid #bdc3c7;
+    padding: 15px;
+    text-align: left;
+}
+th {
+    background-color: #0d3138;
+    color: white;
+}
+.skills p::before, .seminar p::before, .achievements p::before {
+    content: '';
+    margin-right: 10px;
+}
